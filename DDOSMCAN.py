@@ -3,6 +3,17 @@ import socket
 import random
 import sys
 def usage():
+    print "\033[1;32m#########################################################"
+    print "#------------------------[\033[1;91mDDOSMCAN\033[1;32m]---------------------#"
+    print "#-------------------------------------------------------#"
+    print "#   \033[1;91mCommand: " "python2 DDOSMCAN.py " "<ip> <port> <packet>   \033[1;32m#"
+    print "#\033[1;91mCreator:Mr.S4fRm                                       \033[1;32m#"
+    print "#\033[1;91mTeam   : MCAN                                          \033[1;32m#"
+    print "#\033[1;91mVersion:1.0                                            \033[1;32m#"
+    print "#               \033[1;91m<--[MUSLIM CYBER ARMY NEWS]-->          \033[1;32m#"
+
+
+    print "#-------------------------------------------------------#"
 def flood(victim, vport, duration):
     # Support us yaakk... :)
     # Okey Jadi disini saya membuat server, Ketika saya memanggil "SOCK_DGRAM" itu  menunjukkan  UDP type program
